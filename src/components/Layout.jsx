@@ -86,7 +86,7 @@ export default function Layout({ children }) {
             letterSpacing: '-0.3px',
             flexShrink: 0,
           }}>
-            SI
+            AM
           </div>
           <div style={{ overflow: 'hidden' }}>
             <div style={{
@@ -97,7 +97,7 @@ export default function Layout({ children }) {
               overflow: 'hidden',
               textOverflow: 'ellipsis',
             }}>
-              Saidul Islam
+              Alex Morgan
             </div>
             <div style={{
               fontSize: 11,
@@ -106,7 +106,7 @@ export default function Layout({ children }) {
               overflow: 'hidden',
               textOverflow: 'ellipsis',
             }}>
-              Exec Director of Engineering
+              VP of Engineering
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ export const teams = [
   {
     id: 1,
     name: 'Platform Core',
-    location: 'Columbus, OH',
+    location: 'Austin, TX',
     engineeringManager: 'Sarah Chen',
     productManager: 'Mike Reynolds',
     sprintCapacity: 42,
@@ -13,7 +13,7 @@ export const teams = [
   {
     id: 2,
     name: 'Customer Portal',
-    location: 'Columbus, OH',
+    location: 'Austin, TX',
     engineeringManager: 'James Wright',
     productManager: 'Lisa Park',
     sprintCapacity: 34,
@@ -23,7 +23,7 @@ export const teams = [
   {
     id: 3,
     name: 'Data Engineering',
-    location: 'Columbus, OH',
+    location: 'Austin, TX',
     engineeringManager: 'Priya Sharma',
     productManager: 'Tom Bradley',
     sprintCapacity: 40,
@@ -33,7 +33,7 @@ export const teams = [
   {
     id: 4,
     name: 'DevOps & Infra',
-    location: 'Columbus, OH',
+    location: 'Austin, TX',
     engineeringManager: 'Kevin O\'Brien',
     productManager: 'Rachel Kim',
     sprintCapacity: 28,
@@ -42,8 +42,8 @@ export const teams = [
   },
   {
     id: 5,
-    name: 'Payments',
-    location: 'Wilmington, DE',
+    name: 'Commerce',
+    location: 'New York, NY',
     engineeringManager: 'David Martinez',
     productManager: 'Amanda Foster',
     sprintCapacity: 36,
@@ -53,7 +53,7 @@ export const teams = [
   {
     id: 6,
     name: 'Mobile App',
-    location: 'Mumbai, India',
+    location: 'Bangalore, India',
     engineeringManager: 'Rajesh Patel',
     productManager: 'Sneha Gupta',
     sprintCapacity: 44,
@@ -63,7 +63,7 @@ export const teams = [
   {
     id: 7,
     name: 'API Gateway',
-    location: 'Hyderabad, India',
+    location: 'Pune, India',
     engineeringManager: 'Ananya Reddy',
     productManager: 'Vikram Desai',
     sprintCapacity: 38,
@@ -73,7 +73,7 @@ export const teams = [
   {
     id: 8,
     name: 'Search & Discovery',
-    location: 'Hyderabad, India',
+    location: 'Pune, India',
     engineeringManager: 'Karthik Nair',
     productManager: 'Meera Joshi',
     sprintCapacity: 32,
@@ -83,7 +83,7 @@ export const teams = [
   {
     id: 9,
     name: 'Notifications',
-    location: 'Hyderabad, India',
+    location: 'Pune, India',
     engineeringManager: 'Deepa Iyer',
     productManager: 'Arjun Menon',
     sprintCapacity: 30,
@@ -93,7 +93,7 @@ export const teams = [
   {
     id: 10,
     name: 'Analytics & Reporting',
-    location: 'Hyderabad, India',
+    location: 'Pune, India',
     engineeringManager: 'Suresh Kumar',
     productManager: 'Nisha Agarwal',
     sprintCapacity: 34,
@@ -130,13 +130,13 @@ export const projects = [
   },
   {
     id: 2,
-    name: 'Payment Gateway v3',
-    description: 'Next-gen payment processing with real-time fraud detection',
+    name: 'Checkout Service v3',
+    description: 'Next-gen order processing with real-time validation',
     teamIds: [5, 7],
     totalStoryPoints: 220,
     completedStoryPoints: 180,
     status: 'Green',
-    statusNote: 'On track. Final round of PCI compliance testing in progress.',
+    statusNote: 'On track. Final round of integration testing in progress.',
     uatDate: '2026-04-10',
     prodDate: '2026-04-25',
     kanbanStage: 'UAT',
@@ -158,13 +158,13 @@ export const projects = [
   },
   {
     id: 4,
-    name: 'AWS Cloud Migration Phase 2',
-    description: 'Migrating remaining on-prem services to AWS (databases, legacy batch jobs)',
+    name: 'Cloud Migration Phase 2',
+    description: 'Migrating remaining on-prem services to cloud (databases, legacy batch jobs)',
     teamIds: [4, 11, 1],
     totalStoryPoints: 410,
     completedStoryPoints: 120,
     status: 'Red',
-    statusNote: 'Dependency on legacy Oracle DB migration blocked. DBA team bandwidth issue. Escalation needed.',
+    statusNote: 'Dependency on legacy database migration blocked. DBA team bandwidth issue. Escalation needed.',
     uatDate: '2026-08-15',
     prodDate: '2026-09-15',
     kanbanStage: 'In Progress',
@@ -228,8 +228,8 @@ export const projects = [
   },
   {
     id: 9,
-    name: 'SOC2 Compliance Automation',
-    description: 'Automated compliance checks and audit trail for SOC2 certification',
+    name: 'Security Automation Suite',
+    description: 'Automated security checks and audit trail for compliance certification',
     teamIds: [4, 11],
     totalStoryPoints: 130,
     completedStoryPoints: 20,
@@ -271,12 +271,12 @@ export const projects = [
   {
     id: 12,
     name: 'Data Lake Modernization',
-    description: 'Migrating from Hadoop to modern lakehouse architecture (Delta Lake + Databricks)',
+    description: 'Migrating from legacy data warehouse to modern lakehouse architecture',
     teamIds: [3, 10, 11],
     totalStoryPoints: 350,
     completedStoryPoints: 100,
     status: 'Yellow',
-    statusNote: 'Databricks workspace provisioning delayed due to procurement. Expected resolution by April 10.',
+    statusNote: 'Cloud workspace provisioning delayed due to procurement. Expected resolution by April 10.',
     uatDate: '2026-08-01',
     prodDate: '2026-09-01',
     kanbanStage: 'In Progress',
@@ -287,9 +287,9 @@ export const projects = [
 export const kanbanStages = ['TODO', 'In Progress', 'UAT', 'Pilot', 'LIVE'];
 
 export const locations = [
-  'Columbus, OH',
-  'Wilmington, DE',
-  'Mumbai, India',
-  'Hyderabad, India',
+  'Austin, TX',
+  'New York, NY',
+  'Bangalore, India',
+  'Pune, India',
   'Virtual (Consultants)',
 ];

@@ -1,10 +1,10 @@
 export const kanbanStages = ['TODO', 'In Progress', 'UAT', 'Pilot', 'LIVE'];
 
 export const locations = [
-  'Columbus, OH',
-  'Wilmington, DE',
-  'Mumbai, India',
-  'Hyderabad, India',
+  'Austin, TX',
+  'New York, NY',
+  'Bangalore, India',
+  'Pune, India',
   'Virtual (Consultants)',
 ];
 
