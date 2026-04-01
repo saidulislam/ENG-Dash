@@ -55,7 +55,7 @@ Then open [http://localhost:3001](http://localhost:3001). Express serves both th
 | Page | Route | Description |
 |------|-------|-------------|
 | Dashboard | `/` | Executive summary: KPIs, attention alerts (Red/Yellow projects), pipeline counts, all-projects table |
-| Teams | `/teams` | All 11 teams grouped by location (Columbus OH, Wilmington DE, Mumbai, Hyderabad, Virtual Consultants) |
+| Teams | `/teams` | All 11 teams grouped by location |
 | Team Detail | `/teams/:id` | Single team's capacity, utilization bar, assigned projects. **Editable.** |
 | Projects | `/projects` | All projects with status, priority, progress bars, timeline dates |
 | Project Detail | `/projects/:id` | Status/blockers, timeline, assigned teams. **Editable.** |
